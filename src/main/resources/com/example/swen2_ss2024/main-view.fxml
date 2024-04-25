@@ -100,21 +100,21 @@
             <children>
 
                 <VBox>
-                    <TabPane HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS">
+                    <TabPane HBox.hgrow="ALWAYS" VBox.vgrow="ALWAYS" >
                         <tabs>
-                            <Tab text="General">
+                            <Tab text="General" closable="false">
                                 <!-- General content -->
                                 <ListView fx:id="GeneralContent">
                                     <!---->
                                 </ListView>
                             </Tab>
-                            <Tab text="Route">
+                            <Tab text="Route" closable="false">
                                 <!-- Route content -->
                                 <ListView fx:id="RouteContent">
                                     <!---->
                                 </ListView>
                             </Tab>
-                            <Tab text="Misc">
+                            <Tab text="Misc" closable="false">
                                 <!-- Misc content -->
                                 <ListView fx:id="MiscContent">
                                     <!---->
