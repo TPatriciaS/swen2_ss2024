@@ -3,7 +3,7 @@ package com.example.swen2_ss2024;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class TourPlannerController {
     @FXML
     private Label welcomeText;
 
